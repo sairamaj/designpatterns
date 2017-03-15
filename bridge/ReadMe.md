@@ -6,6 +6,7 @@
  * Beyond encapsulation, to insulation
 
 [[https://github.com/sairamaj/designpatterns/blob/master/bridge/bridge.png|alt=bridge]]
+
 [[https://github.com/sairamaj/designpatterns/blob/master/bridge/bridge2.png|alt=bridge]]
 
 [Bridge Pattern](https://sourcemaking.com/design_patterns/bridge)
