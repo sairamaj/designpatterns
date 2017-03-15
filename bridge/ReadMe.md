@@ -7,7 +7,7 @@
 
 ![bridge](https://github.com/sairamaj/designpatterns/blob/master/bridge/bridge.png)
 
-![bridge](https://github.com/sairamaj/designpatterns/blob/master/bridge/bridge2png)
+![bridge](https://github.com/sairamaj/designpatterns/blob/master/bridge/bridge2.png)
 
 [Bridge Pattern](https://sourcemaking.com/design_patterns/bridge)
 
