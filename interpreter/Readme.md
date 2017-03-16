@@ -4,7 +4,7 @@
  * Barcode language ( interprets the bar codes)
  * BNF ( Backus normal form - define a grammar)
 
-![structure](https://github.com/sairamaj/designpatterns/blob/master/flyweight/structure.png)
+![structure](https://github.com/sairamaj/designpatterns/blob/master/interpreter/structure.png)
 
 Composite and Interpreter are similar (but Interpreter has some rules.)
 
