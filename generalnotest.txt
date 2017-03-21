@@ -1,0 +1,7 @@
+Factories/Provider/Service
+
+Factory: Assembles classes, either by composing a bunch of bits together, or choosing type based on some kind of context
+
+Provider: Provider is something microsoft "invented" (basically an abstract factory pattern) that is a way of doing a factory of factories, or having a common factory interface which allows factories to be swappable. It is used all over in the MS web stack as a way to keep components configurable.
+
+Service: A service is a group of related functionality. Think of it as if you are splitting your architecture horizontally, you have a "Business Logic" layer, if you split that vertically you will have services.
