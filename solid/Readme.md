@@ -22,3 +22,13 @@
   * Provides a plug-in model
   * Implementations use inheritance clients use composition
 
+## The Liskov Substitution principle
+* The Liskov substitution principle states that subtypes must be substitutable for their base types.
+* child classes must not 
+  * remove base class behavior
+  * violates base class invariants
+  * Must not require calling code to know that they are different from base types
+  * Inheritance is ISA relationship
+  * LISKOV suggests that ISA relationship should be replaced with IS-SUBSTITUABLE-FOR
+  
+
