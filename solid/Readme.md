@@ -30,5 +30,13 @@
   * Must not require calling code to know that they are different from base types
   * Inheritance is ISA relationship
   * LISKOV suggests that ISA relationship should be replaced with IS-SUBSTITUABLE-FOR
-  
+
+# Interface Segregation
+* Clients should not be forced to depend on methods they do not use.
+* Prfer small, cohesive interfaces to "fat" interfaces
+* Refactor large interfaces so that they inherit small interfaces
+* ISP Smells
+  * Unimplemented interface methods (NotImplementedException)
+  * Client references a class but only uses small portions of it.
+
 
