@@ -39,4 +39,19 @@
   * Unimplemented interface methods (NotImplementedException)
   * Client references a class but only uses small portions of it.
 
+# DRY
+* Every piece of knowledge must have a single, unambiguous representation in the system
+* Repetition in logic calls for abstraction. Repetition in process calls for automation
+* Once and Only Once
+* Duplication is Evil(DIE)
+  * Magic Strings/Values
+  * Duplicate Logic in several methods
+  * Repeated if then logic
+  * conditionals instead of polymorphism
+  * Repeated execution patterns
+  * Lots of duplicate, probably copy-pated, code
+  * only manual tests
+  * static methods everywhere.
+  
+
 
