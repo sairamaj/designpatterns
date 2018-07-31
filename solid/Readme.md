@@ -38,6 +38,7 @@
 * ISP Smells
   * Unimplemented interface methods (NotImplementedException)
   * Client references a class but only uses small portions of it.
+
 # Dependency Inversion Principle
 * High level modules should not depend on low level modules. Both should depend on abstractions
 * Abstractions should not depend on details. detail should depend on abstractions.
@@ -52,3 +53,19 @@
   * use of new keyword
   * use of static methods/properties
   
+
+# DRY
+* Every piece of knowledge must have a single, unambiguous representation in the system
+* Repetition in logic calls for abstraction. Repetition in process calls for automation
+* Once and Only Once
+* Duplication is Evil(DIE)
+  * Magic Strings/Values
+  * Duplicate Logic in several methods
+  * Repeated if then logic
+  * conditionals instead of polymorphism
+  * Repeated execution patterns
+  * Lots of duplicate, probably copy-pated, code
+  * only manual tests
+  * static methods everywhere.
+  
+
