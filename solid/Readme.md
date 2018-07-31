@@ -38,5 +38,17 @@
 * ISP Smells
   * Unimplemented interface methods (NotImplementedException)
   * Client references a class but only uses small portions of it.
-
-
+# Dependency Inversion Principle
+* High level modules should not depend on low level modules. Both should depend on abstractions
+* Abstractions should not depend on details. detail should depend on abstractions.
+* Is a technique that is used to allow calling code to inject the dependencies a class needs when it is instantiated.
+* Hollywood principle
+  * Don't calls us. we'll call you.
+* Three primary techniques
+  * Constructor Injection
+  * Property Injection
+  * Parameter Injection
+* DIP Smell
+  * use of new keyword
+  * use of static methods/properties
+  
